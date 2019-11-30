@@ -32,7 +32,7 @@ Yii 2 Basic Project Template был выбран в качестве скеле�
 ----------------
 
 PHP 7.2.
-
+```sql
 CREATE DATA BASE stud_db; --БД
 
 --создание таблички студентов
@@ -55,7 +55,7 @@ CREATE TABLE public.subjects
     mark int
 );
 CREATE UNIQUE INDEX subjects_id_uindex ON public.subjects (id);
-
+```
 
 УСТАНОВКА
 ------------
